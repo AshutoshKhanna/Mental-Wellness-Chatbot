@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PeacePal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='icon-image.png') }}" type="image/png">
+</head>
+<body>
+  <div class="header">
+    <h1 class="peacepal-heading">PeacePal</h1>
+    <a href="{{ url_for('logout') }}" id="logout-button">Logout</a>
+  </div>
+        <div class="chat-container" id="chat-container">
+    <div class="chat-box" id="chat-box">
+      <!-- Existing messages will be displayed here -->
+    </div>
+    <div class="user-input">
+      <div class="input-container">
+        <input type="text" id="user-input" placeholder="Type your message...">
+        <img id="microphone-icon" src="{{ url_for('static', filename='microphone-off.svg') }}" alt="Microphone Icon">
+      </div>
+      <img id="send-icon" src="{{ url_for('static', filename='send-icon.svg') }}" alt="Send Icon">
+      <img id="clear-chat-icon" src="{{ url_for('static', filename='trash-icon.svg') }}" alt="Clear Chat Icon">
+    </div>
+  </div>
+  <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
