@@ -1,7 +1,7 @@
 # Mental Wellness Chatbot
 
 This is a Flask application that provides a mental health companion chatbot to help users with their mental wellness issues. The chatbot utilizes the Google Generative AI API to generate responses based on user input and a predefined prompt.
-![Mental Wellness Chatbot](Mental-Wellness-Chatbot/peacepal.png "Mental Wellness Chatbot")
+![Mental Wellness Chatbot](/peacepal.png "Mental Wellness Chatbot")
 ## Features
 
 - Google OAuth2 authentication for user login
