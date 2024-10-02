@@ -1,0 +1,6 @@
+Flask
+Authlib
+SpeechRecognition
+google-generativeai
+python-dotenv
+requests
